@@ -79,8 +79,8 @@ function Auth() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello, {user.username}</h1>
       </header>
-      <button onClick={addToGroup}>Add to Group</button>
-      <button onClick={() => listEditors(10)}>List Editors</button>
+      {/* <button onClick={addToGroup}>Add to Group</button>
+      <button onClick={() => listEditors(10)}>List Editors</button> */}
       <AmplifySignOut />
     </div>
   ) : (
