@@ -46,7 +46,7 @@ async function listEditors(limit) {
   let path = "/listUsersInGroup";
   let myInit = {
     queryStringParameters: {
-      groupname: "doctors",
+      groupname: "admin",
       limit: limit,
       token: nextToken,
     },
