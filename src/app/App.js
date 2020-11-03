@@ -1,9 +1,9 @@
 import React from "react";
 
-import { Auth } from "./auth";
+import { AuthStateApp } from "./auth";
 
 function App() {
-  return <Auth />;
+  return <AuthStateApp />;
 }
 
 export default App;
